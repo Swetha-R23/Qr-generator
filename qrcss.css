@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.app-con {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qr-img{
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    height: auto;
+}
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: 500;
+}
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 16px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+}
+button{
+    padding: 15px 15px;
+    color: rgb(180, 143, 215);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 5%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.generate-btn{
+    background-color: blueviolet;
+}
+.generate-btn:disabled{
+    background-color: rgb(170, 118, 219);
+    cursor: not-allowed;
+}
+.generate-btn:hover{
+    background-color: rgb(200, 135, 228);
+    color: white;
+}
+.download-btn{
+    background-color: blueviolet;
+}   
+.download-btn:hover{
+    background-color: rgb(200, 135, 228);
+    color: white;
+}
+.app-con h1{
+    color: blueviolet;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid blueviolet;
+    padding: 10px 0px;
+}
